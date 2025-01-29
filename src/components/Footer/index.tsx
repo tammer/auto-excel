@@ -52,26 +52,26 @@ const Footer = ({ t }: { t: TFunction }) => {
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              {/* <Large to="/">{t("Tell us everything")}</Large> */}
+              {/* <Para>
+                {t(`Feel free to reach out.`)}
+              </Para> */}
+              <a href="mailto:tammer.kamel@finpilot.ai">
+                <Chat>{t(`Email`)}</Chat>
               </a>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            {/* <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Policy")}</Title>
               <Large to="/">{t("Application Security")}</Large>
               <Large to="/">{t("Software Principles")}</Large>
-            </Col>
+            </Col> */}
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
+              {/* <Large to="/">{t("Support Center")}</Large> */}
+              <Large to="/">{t("Terms of Service")}</Large>
             </Col>
           </Row>
-          <Row justify="space-between">
+          {/* <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
@@ -107,10 +107,10 @@ const Footer = ({ t }: { t: TFunction }) => {
                 </LanguageSwitch>
               </LanguageSwitchContainer>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </FooterSection>
-      <Extra>
+      {/* <Extra>
         <Container border={true}>
           <Row
             justify="space-between"
@@ -159,7 +159,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </FooterContainer>
           </Row>
         </Container>
-      </Extra>
+      </Extra> */}
     </>
   );
 };
